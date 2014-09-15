@@ -1,0 +1,166 @@
+==================================================================
+Code Book for AverageOfEachMeasurement.txt
+Version 1.0
+==================================================================
+Introduction
+The experiments have been carried out with a group of 30 volunteers within an age bracket of 19-48 years. Each person performed six activities (WALKING, WALKING_UPSTAIRS,
+ WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) wearing a smartphone (Samsung Galaxy S II) on the waist. After collecting the raw data, we carried out certain processing to tidy them into only one ready-for-using table whose name is "AverageOfEachMeasurement.txt".
+Note: the columns are seperated by space.
+==================================================================
+AverageOfEachMeasurement.txt
+The average for each measurement for each activity and each subject, it contains 88 fields.
+1	Subject	: varchar (10) Lists the ID of 30 volunteers
+2	Activity	: varchar (50) Lists the activities they were doing
+3	Average_of_tBodyAcc-mean()-X	: varchar (50) Lists the average number of tBodyAcc-mean()-X for each activity and each subject
+4	Average_of_tBodyAcc-mean()-Y	: varchar (50) Lists the average number of tBodyAcc-mean()-Y for each activity and each subject
+5	Average_of_tBodyAcc-mean()-Z	: varchar (50) Lists the average number of tBodyAcc-mean()-Z for each activity and each subject
+6	Average_of_tGravityAcc-mean()-X	: varchar (50) Lists the average number of tGravityAcc-mean()-X for each activity and each subject
+7	Average_of_tGravityAcc-mean()-Y	: varchar (50) Lists the average number of tGravityAcc-mean()-Y for each activity and each subject
+8	Average_of_tGravityAcc-mean()-Z	: varchar (50) Lists the average number of tGravityAcc-mean()-Z for each activity and each subject
+9	Average_of_tBodyAccJerk-mean()-X	: varchar (50) Lists the average number of tBodyAccJerk-mean()-X for each activity and each subject
+10	Average_of_tBodyAccJerk-mean()-Y	: varchar (50) Lists the average number of tBodyAccJerk-mean()-Y for each activity and each subject
+11	Average_of_tBodyAccJerk-mean()-Z	: varchar (50) Lists the average number of tBodyAccJerk-mean()-Z for each activity and each subject
+12	Average_of_tBodyGyro-mean()-X	: varchar (50) Lists the average number of tBodyGyro-mean()-X for each activity and each subject
+13	Average_of_tBodyGyro-mean()-Y	: varchar (50) Lists the average number of tBodyGyro-mean()-Y for each activity and each subject
+14	Average_of_tBodyGyro-mean()-Z	: varchar (50) Lists the average number of tBodyGyro-mean()-Z for each activity and each subject
+15	Average_of_tBodyGyroJerk-mean()-X	: varchar (50) Lists the average number of tBodyGyroJerk-mean()-X for each activity and each subject
+16	Average_of_tBodyGyroJerk-mean()-Y	: varchar (50) Lists the average number of tBodyGyroJerk-mean()-Y for each activity and each subject
+17	Average_of_tBodyGyroJerk-mean()-Z	: varchar (50) Lists the average number of tBodyGyroJerk-mean()-Z for each activity and each subject
+18	Average_of_tBodyAccMag-mean()	: varchar (50) Lists the average number of tBodyAccMag-mean() for each activity and each subject
+19	Average_of_tGravityAccMag-mean()	: varchar (50) Lists the average number of tGravityAccMag-mean() for each activity and each subject
+20	Average_of_tBodyAccJerkMag-mean()	: varchar (50) Lists the average number of tBodyAccJerkMag-mean() for each activity and each subject
+21	Average_of_tBodyGyroMag-mean()	: varchar (50) Lists the average number of tBodyGyroMag-mean() for each activity and each subject
+22	Average_of_tBodyGyroJerkMag-mean()	: varchar (50) Lists the average number of tBodyGyroJerkMag-mean() for each activity and each subject
+23	Average_of_fBodyAcc-mean()-X	: varchar (50) Lists the average number of fBodyAcc-mean()-X for each activity and each subject
+24	Average_of_fBodyAcc-mean()-Y	: varchar (50) Lists the average number of fBodyAcc-mean()-Y for each activity and each subject
+25	Average_of_fBodyAcc-mean()-Z	: varchar (50) Lists the average number of fBodyAcc-mean()-Z for each activity and each subject
+26	Average_of_fBodyAcc-meanFreq()-X	: varchar (50) Lists the average number of fBodyAcc-meanFreq()-X for each activity and each subject
+27	Average_of_fBodyAcc-meanFreq()-Y	: varchar (50) Lists the average number of fBodyAcc-meanFreq()-Y for each activity and each subject
+28	Average_of_fBodyAcc-meanFreq()-Z	: varchar (50) Lists the average number of fBodyAcc-meanFreq()-Z for each activity and each subject
+29	Average_of_fBodyAccJerk-mean()-X	: varchar (50) Lists the average number of fBodyAccJerk-mean()-X for each activity and each subject
+30	Average_of_fBodyAccJerk-mean()-Y	: varchar (50) Lists the average number of fBodyAccJerk-mean()-Y for each activity and each subject
+31	Average_of_fBodyAccJerk-mean()-Z	: varchar (50) Lists the average number of fBodyAccJerk-mean()-Z for each activity and each subject
+32	Average_of_fBodyAccJerk-meanFreq()-X	: varchar (50) Lists the average number of fBodyAccJerk-meanFreq()-X for each activity and each subject
+33	Average_of_fBodyAccJerk-meanFreq()-Y	: varchar (50) Lists the average number of fBodyAccJerk-meanFreq()-Y for each activity and each subject
+34	Average_of_fBodyAccJerk-meanFreq()-Z	: varchar (50) Lists the average number of fBodyAccJerk-meanFreq()-Z for each activity and each subject
+35	Average_of_fBodyGyro-mean()-X	: varchar (50) Lists the average number of fBodyGyro-mean()-X for each activity and each subject
+36	Average_of_fBodyGyro-mean()-Y	: varchar (50) Lists the average number of fBodyGyro-mean()-Y for each activity and each subject
+37	Average_of_fBodyGyro-mean()-Z	: varchar (50) Lists the average number of fBodyGyro-mean()-Z for each activity and each subject
+38	Average_of_fBodyGyro-meanFreq()-X	: varchar (50) Lists the average number of fBodyGyro-meanFreq()-X for each activity and each subject
+39	Average_of_fBodyGyro-meanFreq()-Y	: varchar (50) Lists the average number of fBodyGyro-meanFreq()-Y for each activity and each subject
+40	Average_of_fBodyGyro-meanFreq()-Z	: varchar (50) Lists the average number of fBodyGyro-meanFreq()-Z for each activity and each subject
+41	Average_of_fBodyAccMag-mean()	: varchar (50) Lists the average number of fBodyAccMag-mean() for each activity and each subject
+42	Average_of_fBodyAccMag-meanFreq()	: varchar (50) Lists the average number of fBodyAccMag-meanFreq() for each activity and each subject
+43	Average_of_fBodyBodyAccJerkMag-mean()	: varchar (50) Lists the average number of fBodyBodyAccJerkMag-mean() for each activity and each subject
+44	Average_of_fBodyBodyAccJerkMag-meanFreq()	: varchar (50) Lists the average number of fBodyBodyAccJerkMag-meanFreq() for each activity and each subject
+45	Average_of_fBodyBodyGyroMag-mean()	: varchar (50) Lists the average number of fBodyBodyGyroMag-mean() for each activity and each subject
+46	Average_of_fBodyBodyGyroMag-meanFreq()	: varchar (50) Lists the average number of fBodyBodyGyroMag-meanFreq() for each activity and each subject
+47	Average_of_fBodyBodyGyroJerkMag-mean()	: varchar (50) Lists the average number of fBodyBodyGyroJerkMag-mean() for each activity and each subject
+48	Average_of_fBodyBodyGyroJerkMag-meanFreq()	: varchar (50) Lists the average number of fBodyBodyGyroJerkMag-meanFreq() for each activity and each subject
+49	Average_of_angle(tBodyAccMean,gravity)	: varchar (50) Lists the average number of angle(tBodyAccMean,gravity) for each activity and each subject
+50	Average_of_angle(tBodyAccJerkMean),gravityMean)	: varchar (50) Lists the average number of angle(tBodyAccJerkMean),gravityMean) for each activity and each subject
+51	Average_of_angle(tBodyGyroMean,gravityMean)	: varchar (50) Lists the average number of angle(tBodyGyroMean,gravityMean) for each activity and each subject
+52	Average_of_angle(tBodyGyroJerkMean,gravityMean)	: varchar (50) Lists the average number of angle(tBodyGyroJerkMean,gravityMean) for each activity and each subject
+53	Average_of_angle(X,gravityMean)	: varchar (50) Lists the average number of angle(X,gravityMean) for each activity and each subject
+54	Average_of_angle(Y,gravityMean)	: varchar (50) Lists the average number of angle(Y,gravityMean) for each activity and each subject
+55	Average_of_angle(Z,gravityMean)	: varchar (50) Lists the average number of angle(Z,gravityMean) for each activity and each subject
+56	Average_of_tBodyAcc-std()-X	: varchar (50) Lists the average number of tBodyAcc-std()-X for each activity and each subject
+57	Average_of_tBodyAcc-std()-Y	: varchar (50) Lists the average number of tBodyAcc-std()-Y for each activity and each subject
+58	Average_of_tBodyAcc-std()-Z	: varchar (50) Lists the average number of tBodyAcc-std()-Z for each activity and each subject
+59	Average_of_tGravityAcc-std()-X	: varchar (50) Lists the average number of tGravityAcc-std()-X for each activity and each subject
+60	Average_of_tGravityAcc-std()-Y	: varchar (50) Lists the average number of tGravityAcc-std()-Y for each activity and each subject
+61	Average_of_tGravityAcc-std()-Z	: varchar (50) Lists the average number of tGravityAcc-std()-Z for each activity and each subject
+62	Average_of_tBodyAccJerk-std()-X	: varchar (50) Lists the average number of tBodyAccJerk-std()-X for each activity and each subject
+63	Average_of_tBodyAccJerk-std()-Y	: varchar (50) Lists the average number of tBodyAccJerk-std()-Y for each activity and each subject
+64	Average_of_tBodyAccJerk-std()-Z	: varchar (50) Lists the average number of tBodyAccJerk-std()-Z for each activity and each subject
+65	Average_of_tBodyGyro-std()-X	: varchar (50) Lists the average number of tBodyGyro-std()-X for each activity and each subject
+66	Average_of_tBodyGyro-std()-Y	: varchar (50) Lists the average number of tBodyGyro-std()-Y for each activity and each subject
+67	Average_of_tBodyGyro-std()-Z	: varchar (50) Lists the average number of tBodyGyro-std()-Z for each activity and each subject
+68	Average_of_tBodyGyroJerk-std()-X	: varchar (50) Lists the average number of tBodyGyroJerk-std()-X for each activity and each subject
+69	Average_of_tBodyGyroJerk-std()-Y	: varchar (50) Lists the average number of tBodyGyroJerk-std()-Y for each activity and each subject
+70	Average_of_tBodyGyroJerk-std()-Z	: varchar (50) Lists the average number of tBodyGyroJerk-std()-Z for each activity and each subject
+71	Average_of_tBodyAccMag-std()	: varchar (50) Lists the average number of tBodyAccMag-std() for each activity and each subject
+72	Average_of_tGravityAccMag-std()	: varchar (50) Lists the average number of tGravityAccMag-std() for each activity and each subject
+73	Average_of_tBodyAccJerkMag-std()	: varchar (50) Lists the average number of tBodyAccJerkMag-std() for each activity and each subject
+74	Average_of_tBodyGyroMag-std()	: varchar (50) Lists the average number of tBodyGyroMag-std() for each activity and each subject
+75	Average_of_tBodyGyroJerkMag-std()	: varchar (50) Lists the average number of tBodyGyroJerkMag-std() for each activity and each subject
+76	Average_of_fBodyAcc-std()-X	: varchar (50) Lists the average number of fBodyAcc-std()-X for each activity and each subject
+77	Average_of_fBodyAcc-std()-Y	: varchar (50) Lists the average number of fBodyAcc-std()-Y for each activity and each subject
+78	Average_of_fBodyAcc-std()-Z	: varchar (50) Lists the average number of fBodyAcc-std()-Z for each activity and each subject
+79	Average_of_fBodyAccJerk-std()-X	: varchar (50) Lists the average number of fBodyAccJerk-std()-X for each activity and each subject
+80	Average_of_fBodyAccJerk-std()-Y	: varchar (50) Lists the average number of fBodyAccJerk-std()-Y for each activity and each subject
+81	Average_of_fBodyAccJerk-std()-Z	: varchar (50) Lists the average number of fBodyAccJerk-std()-Z for each activity and each subject
+82	Average_of_fBodyGyro-std()-X	: varchar (50) Lists the average number of fBodyGyro-std()-X for each activity and each subject
+83	Average_of_fBodyGyro-std()-Y	: varchar (50) Lists the average number of fBodyGyro-std()-Y for each activity and each subject
+84	Average_of_fBodyGyro-std()-Z	: varchar (50) Lists the average number of fBodyGyro-std()-Z for each activity and each subject
+85	Average_of_fBodyAccMag-std()	: varchar (50) Lists the average number of fBodyAccMag-std() for each activity and each subject
+86	Average_of_fBodyBodyAccJerkMag-std()	: varchar (50) Lists the average number of fBodyBodyAccJerkMag-std() for each activity and each subject
+87	Average_of_fBodyBodyGyroMag-std()	: varchar (50) Lists the average number of fBodyBodyGyroMag-std() for each activity and each subject
+88	Average_of_fBodyBodyGyroJerkMag-std()	: varchar (50) Lists the average number of fBodyBodyGyroJerkMag-std()" for each activity and each subject
+ 
+==================================================================
+Detailed Description of Features 
+
+This part cited from the original file "features_info.txt" 
+
+The features selected for this table come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XY
+Z. These time domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz. Then they were filtered
+ using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. Simila
+rly, the acceleration signal was then separated into body and gravity acceleration signals (tBodyAcc-XYZ and tGravityAcc-XY
+Z) using another low pass Butterworth filter with a corner frequency of 0.3 Hz. 
+
+Subsequently, the body linear acceleration and angular velocity were derived in time to obtain Jerk signals (tBodyAccJerk-X
+YZ and tBodyGyroJerk-XYZ). Also the magnitude of these three-dimensional signals were calculated using the Euclidean norm (
+tBodyAccMag, tGravityAccMag, tBodyAccJerkMag, tBodyGyroMag, tBodyGyroJerkMag). 
+
+Finally a Fast Fourier Transform (FFT) was applied to some of these signals producing fBodyAcc-XYZ, fBodyAccJerk-XYZ, fBody
+Gyro-XYZ, fBodyAccJerkMag, fBodyGyroMag, fBodyGyroJerkMag. (Note the 'f' to indicate frequency domain signals). 
+
+These signals were used to estimate variables of the feature vector for each pattern:  
+'-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
+
+tBodyAcc-XYZ
+tGravityAcc-XYZ
+tBodyAccJerk-XYZ
+tBodyGyro-XYZ
+tBodyGyroJerk-XYZ
+tBodyAccMag
+tGravityAccMag
+tBodyAccJerkMag
+tBodyGyroMag
+tBodyGyroJerkMag
+fBodyAcc-XYZ
+fBodyAccJerk-XYZ
+fBodyGyro-XYZ
+fBodyAccMag
+fBodyAccJerkMag
+fBodyGyroMag
+fBodyGyroJerkMag
+
+The set of variables that were estimated from these signals are: 
+
+mean(): Mean value
+std(): Standard deviation
+mad(): Median absolute deviation 
+max(): Largest value in array
+min(): Smallest value in array
+sma(): Signal magnitude area
+energy(): Energy measure. Sum of the squares divided by the number of values. 
+iqr(): Interquartile range 
+entropy(): Signal entropy
+arCoeff(): Autorregresion coefficients with Burg order equal to 4
+correlation(): correlation coefficient between two signals
+maxInds(): index of the frequency component with largest magnitude
+meanFreq(): Weighted average of the frequency components to obtain a mean frequency
+skewness(): skewness of the frequency domain signal 
+kurtosis(): kurtosis of the frequency domain signal 
+bandsEnergy(): Energy of a frequency interval within the 64 bins of the FFT of each window.
+angle(): Angle between to vectors.
+
+Additional vectors obtained by averaging the signals in a signal window sample. These are used on the angle() variable:
+
+gravityMean
+tBodyAccMean
+tBodyAccJerkMean
+tBodyGyroMean
+tBodyGyroJerkMean
